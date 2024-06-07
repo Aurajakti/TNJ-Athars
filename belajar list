@@ -1,0 +1,15 @@
+#list mulai dari 0 hingga seterusnya
+#list with int as element's data type
+list_1 = [2, 4, 8, 16]
+
+#with str
+list_2 = ["Kevin", "Mark", "Hiller", "Rawr"]
+
+#various data type
+list_3 = [24, True, "Hello World"]
+
+print(list_3[0], list_1[0], list_1[1], list_1[2], list_1[3])
+
+
+list = ["senin", "selasa", "rabu", "kamis", "jumat", "sabtu", "minggu"]
+print(list[2])
