@@ -1,0 +1,18 @@
+print("robot siap beroperasi")
+
+#opsi 1
+#b = ("robot bergerak maju") # sebagai varible sehingga saat variable ini di print muncul text di dalamnya
+#print(b)
+
+#opsi 2
+print("robot bergerak maju") # langsung menggunakan perintah print
+
+kecepatan = (10)
+print("robot bergerak maju dengan kecepatan = " + str(kecepatan))
+
+arah = "kiri"
+kecepatan = 5
+durasi = 10
+print("robot bergerak ke " + (arah))
+print("dengan kecepatan " + str(kecepatan))
+print("dengan durasi " + str(durasi))
