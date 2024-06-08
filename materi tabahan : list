@@ -1,0 +1,11 @@
+name = "Davin"
+list = ["kevin", "Mark", "Hiller", "dotcom"]
+print(list)
+list.remove("dotcom")
+print(list)
+list.append("lupin")
+list.append(name)
+print(list)
+print(len(list))
+list[0]= "Kevinna"
+print(list)
