@@ -1,0 +1,30 @@
+list_inventaris =  ["laptop", "printer", "scanner", "monitor"]
+inventaris = list_inventaris
+
+item_baru = "keyboard"
+list_inventaris.append(item_baru)
+print(list_inventaris)
+
+list_karyawan = ["Kevin", "Lupin", "Mark", "Davin"]
+karyawan = list_karyawan
+
+karyawan_new = "Decade"
+list_karyawan.append(karyawan_new)
+print(list_karyawan)
+
+list_harga_produk = [5000, 150000, 250000, 75000]
+harga_produk = list_harga_produk
+
+harga_baru = 100000
+list_harga_produk.append(harga_baru)
+print(list_harga_produk)
+
+list_inventaris.remove("scanner")
+print(list_inventaris)
+
+list_karyawan.remove("Lupin")
+print(list_karyawan)
+
+print(len(list_inventaris))
+
+print(len(list_karyawan))
