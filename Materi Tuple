@@ -1,0 +1,18 @@
+# tuple with int as element's data type
+tuple_1 = (1, 2, 3)
+
+# tuple with str as element's data type
+tuple_2 = ("keviin", "magnum")
+
+# tuple with various data type in the elemnet
+tuple_3 = (32, False, "hello pitin")
+
+print(tuple_1)
+print(tuple_2)
+print(tuple_3)
+
+# change data from tuple
+list_1 = list(tuple_1)
+list_1[0] = 5
+tuple_1 = tuple(list_1)
+print(tuple_1)
