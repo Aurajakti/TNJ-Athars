@@ -1,0 +1,30 @@
+tuple_lokasi = ("jakrta", -6.22222, 106.8456)
+print("kota", tuple_lokasi[0])
+print("lintang", tuple_lokasi[1])
+print("bujur", tuple_lokasi[2])
+
+tuple_produk = ("laptop", 15000000, 20)
+print("harga", tuple_produk[1])
+
+tuple_karyawan = ("Motoko", "programmer", 10)
+print("departemant", tuple_karyawan[1])
+print("tahun", tuple_karyawan[2])
+
+tuple_db_config = ("localhost", "admin", "password", "database_name")
+print(tuple_db_config[2])
+print(tuple_db_config[3])
+
+tuple_mahasiswa = ("kevin", "Science", [85, 90, 92])
+print(tuple_mahasiswa[1])
+print(tuple_mahasiswa[2])
+
+#cara rivet
+list_mahasiswa = list(tuple_mahasiswa)
+nilai = list_mahasiswa[2]
+nilai[1] = 100
+list_mahasiswa = list(nilai)
+tuple_mahasiswa = tuple(list_mahasiswa)
+print(tuple_mahasiswa)
+
+
+
