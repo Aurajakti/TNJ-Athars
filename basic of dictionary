@@ -1,0 +1,36 @@
+profil_kevin= ["kevin", True, 21, ["coding", "drawing"]]
+
+profil_kevin_1 = {
+    "name": "kevin",
+    "male": True,
+    "age": 21,
+    "hobbies": ["coding", "drawing"]
+}
+
+print(profil_kevin[0])
+print(profil_kevin_1["name"]) #dictionary_name[key]
+print("umur", profil_kevin_1["name"], ":", profil_kevin_1["age"])
+
+#make a dictionary karyawan
+karyawan = {
+    "nama": "kepin",
+    "pekerjaan": "programmar"
+}
+print(karyawan)
+karyawan["pekerjaan"] = "mentor"
+print(karyawan)
+karyawan["instansi"] = "university of oxford" # menambah data
+print(karyawan)
+
+karyawan.pop("nama") #menghapus data
+print(karyawan)
+
+buku = {}
+judul = "si anak spesial"
+penulis = "tere liye"
+tahun = 2021
+
+buku["judul"] = judul
+buku["penulis"] = penulis
+buku["tahun"] = tahun
+print(buku)
